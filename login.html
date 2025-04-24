@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Website login</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+      </nav>
+
+      <form action="#" class="barra-pesquisa">
+        <input type="text" placeholder="procurar" />
+        <button type="submit"><i class="bx bx-search"></i></button>
+      </form>
+    </header>
+
+    <div class="background"></div>
+
+    <div class="container">
+      <div class="content">
+        <h2 class="logo"><i class="bx bxl-firebase"></i>Ipsum</h2>
+
+        <div class="texto">
+          <h2>Bem-vindo! <br /><span>Ao Nosso Novo Portal.</span></h2>
+          <p>
+            Conecte-se para acessar conteúdos exclusivos, recursos
+            personalizados e muito mais.
+          </p>
+
+          <div class="social-icons">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="registro-caixa">
+        <div class="caixa-login">
+          <form action="#">
+            <h2>Entrar</h2>
+
+            <div class="input-caixa">
+              <span class="icon"><i class="bx bxs-envelope"></i></span>
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+
+            <div class="input-caixa">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="senha" required />
+              <label>Senha</label>
+            </div>
+
+            <div class="lembrar">
+              <label><input type="checkbox" /> Lembrar-me </label>
+              <a href="#">Esqueceu a senha?</a>
+            </div>
+
+            <button type="submit" class="btn">Entrar</button>
+
+            <div class="login-register">
+              <p>
+                Não tem uma conta?
+                <a href="#" class="register-Link">Cadastre-se</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="caixa-register">
+          <form action="#">
+            <h2>Cadastre-se</h2>
+
+            <div class="input-caixa">
+              <span class="icon"><i class='bx bxs-user'></i></span>
+              <input type="nome" required />
+              <label>Nome</label>
+            </div>
+
+            <div class="input-caixa">
+              <span class="icon"><i class="bx bxs-envelope"></i></span>
+              <input type="email" required />
+              <label>Email</label>
+            </div>
+
+            <div class="input-caixa">
+              <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+              <input type="senha" required />
+              <label>Senha</label>
+            </div>
+
+            <div class="lembrar">
+              <label><input type="checkbox" /> Eu concordo com os termos e condições</label>
+            </div>
+
+            <button type="submit" class="btn">Cadastre-se</button>
+
+            <div class="login-register">
+              <p>
+                Já tem uma conta?
+                <a href="#" class="loguin-Link">Entrar</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>
